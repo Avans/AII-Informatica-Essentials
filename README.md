@@ -99,8 +99,12 @@ Jaar 2
 - Type switching is verboden (oa Liskov Substution) (MODL3)
 
 Jaar 3
-- 
+- TODO
 
 ## Architectuur
 
 ### Model-View-Controller
+TODO
+
+### Hexagonal Architecture | Onion Architecture | DDD etc.
+TODO
