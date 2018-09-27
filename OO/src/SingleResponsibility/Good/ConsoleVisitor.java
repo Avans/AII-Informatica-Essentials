@@ -1,5 +1,8 @@
 package SingleResponsibility.Good;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class ConsoleVisitor implements BookVisitor {
 
     @Override

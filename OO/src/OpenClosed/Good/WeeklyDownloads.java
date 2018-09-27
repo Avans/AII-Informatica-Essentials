@@ -1,5 +1,8 @@
 package OpenClosed.Good;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class WeeklyDownloads implements Report {
 
     @Override

@@ -1,5 +1,8 @@
 package SingleResponsibility.Good;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class Book {
 
     private String title;

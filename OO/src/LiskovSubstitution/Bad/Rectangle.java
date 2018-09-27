@@ -1,5 +1,8 @@
 package LiskovSubstitution.Bad;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class Rectangle {
     protected int width;
     protected int height;

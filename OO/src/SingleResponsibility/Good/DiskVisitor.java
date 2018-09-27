@@ -5,6 +5,9 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class DiskVisitor implements BookVisitor {
 
     @Override

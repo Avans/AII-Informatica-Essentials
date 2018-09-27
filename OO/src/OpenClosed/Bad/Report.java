@@ -1,5 +1,8 @@
 package OpenClosed.Bad;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class Report {
 
     enum Type {

@@ -1,11 +1,14 @@
 package OpenClosed.Good;
 
-    public class DailyVisitors implements Report {
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
+public class DailyVisitors implements Report {
 
-        @Override
-        public String generate() {
-            // generate daily visitors report
-            return "";
-        }
-
+    @Override
+    public String generate() {
+        // generate daily visitors report
+        return "";
     }
+
+}

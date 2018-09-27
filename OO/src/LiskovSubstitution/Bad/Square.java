@@ -1,5 +1,8 @@
 package LiskovSubstitution.Bad;
 
+/**
+ * @author Rik Meijer ha.meijer@avans.nl
+ */
 public class Square extends Rectangle {
 
     public Square(int width) {
