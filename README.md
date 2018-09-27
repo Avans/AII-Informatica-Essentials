@@ -1,7 +1,7 @@
 ## PROG-SYNC
 
 Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
-Doel: afstemming onder programmeerdocenten over gehanteerde vorm van OO/MVC
+<br>Doel: afstemming onder programmeerdocenten over gehanteerde vorm van OO/MVC
 
 ## Object Oriented Programming
 
