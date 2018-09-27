@@ -60,9 +60,12 @@ Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
 
 [Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/InterfaceSegregation)
 
-
-
 ### Dependency inversion
 
-> The DIP makes two statements. The first is that high level modules should not depend upon low level modules. Both should depend upon abstractions. The second part of the rule is that abstractions should not depend upon details. Details should depend upon abstractions.
+> The DIP makes two statements. 
+> - The first is that high level modules should not depend upon low level modules. Both should depend upon abstractions. 
+> - The second part of the rule is that abstractions should not depend upon details. Details should depend upon abstractions.
 [Bron](http://www.blackwasp.co.uk/DIP.aspx)
+
+[Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/DependencyInversion)
+
