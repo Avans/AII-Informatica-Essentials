@@ -69,3 +69,6 @@ Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
 
 [Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/DependencyInversion)
 
+### Concrete handvatten voor docenten
+
+...
