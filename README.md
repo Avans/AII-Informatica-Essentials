@@ -51,12 +51,14 @@ Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
 > Object orientated design deals with behaviour.
 [Bron](https://softwareengineering.stackexchange.com/a/314671)
 
-
+[Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/LiskovSubstitution)
 
 ### Interface segregation
 
 > Clients should not be forced to depend upon interfaces that they do not use. When we have non-cohesive interfaces, the ISP guides us to create multiple, smaller, cohesive interfaces. 
 [Bron](http://www.blackwasp.co.uk/ISP.aspx)
+
+[Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/InterfaceSegregation)
 
 
 
