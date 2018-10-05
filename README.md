@@ -16,7 +16,13 @@ Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
 
 ### Object Oriented Programming
 
-[SOLID](https://nl.wikipedia.org/wiki/SOLID) als uitgangspunt voor het schrijven van OO. Dit zijn de vijf belangrijkste OO-principes (bedacht door Robert C. Martin).
+De vier principes van OO als theoretische basis:
+- Encapsulation
+- Abstraction
+- Inherintance
+- Polymorhisme
+
+[SOLID](https://nl.wikipedia.org/wiki/SOLID) als practisch uitgangspunt voor het schrijven van OO. Dit zijn de vijf belangrijkste OO-principes (bedacht door Robert C. Martin).
 
 |   | Toelichting
 |---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
