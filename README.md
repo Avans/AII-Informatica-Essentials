@@ -91,14 +91,13 @@ verschillende type objecten mogen niet direct aan de componenten of data van elk
 - A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.[Bron](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
 
 ### Abstractie
-- TODO
+TODO
 
 ### Overerving (via super-class of interface)
-- Via super-class of interface
-- TODO
+TODO
 
 ### Polymorfisme
-- TODO
+TODO
 
 #### Concrete handvatten voor docenten
 
@@ -118,7 +117,7 @@ Car.accelerate()
 
 ##### Jaar 2
 - Type switching is verboden (oa Liskov Substution)
--- Polymorfisme en delegatie worden gebruikt waar mogelijk
+  - Polymorfisme en delegatie worden gebruikt waar mogelijk
 
 ##### Jaar 3
 - TODO
