@@ -16,12 +16,6 @@ Probleem: verschillende interpretaties/uitleg van OO/MVC/MVVM?? door docenten
 
 ### Object Oriented Programming
 
-De vier principes van OO als theoretische basis:
-- Encapsulation
-- Abstraction
-- Inherintance
-- Polymorhisme
-
 [SOLID](https://nl.wikipedia.org/wiki/SOLID) als practisch uitgangspunt voor het schrijven van OO. Dit zijn de vijf belangrijkste OO-principes (bedacht door Robert C. Martin).
 
 |   | Toelichting
@@ -86,13 +80,33 @@ De vier principes van OO als theoretische basis:
 
 [Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/DependencyInversion)
 
+
+#### De vier principes van OO als theoretische basis
+http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
+
+### Encapsulatie
+
+verschillende type objecten mogen niet direct aan de componenten of data van elkaar komen. Hiervoor zijn de methodes van een object.
+- A language mechanism for restricting direct access to some of the object's components.[Bron](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+- A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.[Bron](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))
+
+### Abstractie
+- TODO
+
+### Overerving (via super-class of interface)
+- Via super-class of interface
+- TODO
+
+### Polymorfisme
+- TODO
+
 #### Concrete handvatten voor docenten
 
 Suggesties zijn welkom!
 
-Jaar 1
-- Elke klasse heeft één verantwoordelijkheid
-- Klassen modelleren naar gedrag, niet naar data
+##### Jaar 1
+- Elke klasse heeft één verantwoordelijkheid (ABSTRACTIE/OVERERVING)
+- Klassen modelleren naar gedrag, niet naar data (ENCAPSULATIE)
 ```Java
 // Wrong
 Car.setSpeed(30);
@@ -100,11 +114,13 @@ Car.setSpeed(30);
 // Right
 Car.accelerate()
 ```
+- Polymorfisme en delegatie worden gebruikt (POLYMORFISME)
 
-Jaar 2
-- Type switching is verboden (oa Liskov Substution) (MODL3)
+##### Jaar 2
+- Type switching is verboden (oa Liskov Substution)
+-- Polymorfisme en delegatie worden gebruikt waar mogelijk
 
-Jaar 3
+##### Jaar 3
 - TODO
 
 ## Architectuur
