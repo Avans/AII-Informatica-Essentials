@@ -9,8 +9,6 @@
 | I | Interface segregation<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
 | D | Dependency Inversion<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
 
-[https://github.com/Avans/PROG-SYNC](https://github.com/Avans/PROG-SYNC)
-
 #### Single responsibility
 
 > Every class, or similar structure, in your code should have only one job to do. Everything in the class should be related to that single purpose. It does not mean that your classes should only contain one method or property. 
