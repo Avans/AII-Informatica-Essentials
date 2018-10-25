@@ -73,11 +73,11 @@ Abstractie heeft daarnaast ook raakvlakken met IS: bij Interface Segregation gaa
 
 #### Overerving (via super-class of interface)
 Eigenlijk raakt dit punt alle SOLID-principes:
-SR: aangezien objecten één verantwoordelijk mogen hebben, moeten andere verantwoordelijkheden bijvoorbeeld middels overerving worden verplaatst.
-OC: subclasses zijn een manier om snel functionaliteit toe te voegen, zonder de andere classes aan te moeten passen
-LS: subtypes moeten te vervangen zijn met hun supertype zonder dat de werking wijzigt.
-IS: interfaces zo strak mogelijk gedefinieerd moeten worden
-DI: supertypes/interfaces bevatten abstracties van hun subtypes. Client-objecten zouden van die abstracties afhankelijk moeten zijn ipv de subtypes
+- SR: aangezien objecten één verantwoordelijk mogen hebben, moeten andere verantwoordelijkheden bijvoorbeeld middels overerving worden verplaatst.
+- OC: subclasses zijn een manier om snel functionaliteit toe te voegen, zonder de andere classes aan te moeten passen
+- LS: subtypes moeten te vervangen zijn met hun supertype zonder dat de werking wijzigt.
+- IS: interfaces zo strak mogelijk gedefinieerd moeten worden
+- DI: supertypes/interfaces bevatten abstracties van hun subtypes. Client-objecten zouden van die abstracties afhankelijk moeten zijn ipv de subtypes
 
 #### Polymorfisme
 TODO
