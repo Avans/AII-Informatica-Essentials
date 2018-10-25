@@ -28,7 +28,7 @@
 > "Subtypes must be behaviourally substitutable for the base types" - Barbara Liskov, 1988
 
 > "Functions that use pointers or references to base classes must be able to use objects of derived classes without knowing it" - Robert C. Martin
-> [Bron](https://drive.google.com/file/d/0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh/view)
+[Bron](https://drive.google.com/file/d/0BwhCYaYDn8EgNzAzZjA5ZmItNjU3NS00MzQ5LTkwYjMtMDJhNDU5ZTM0MTlh/view)
 
 > The LSP applies to inheritance hierarchies. It specifies that you should design your classes so that client dependencies can be substituted with subclasses without the client knowing about the change. All subclasses must, therefore, operate the same manner as their base classes. The specific functionality of the subclass may be different but must conform to the expected behaviour of the base class. To be a true behavioural subtype, the subclass must not only implement the base class's methods and properties but also conform to its implied behaviour. This requires compliance with several rules:
 > - the parameters in subclasses must either be the same types as those in the base class or must be less restrictive
