@@ -53,11 +53,15 @@ Suggesties zijn welkom!
 - Elke klasse heeft één verantwoordelijkheid (ABSTRACTIE/OVERERVING)
 - Klassen modelleren naar gedrag, niet naar data (ENCAPSULATIE)
 ```Java
-// Wrong
-Car.setSpeed(30);
-
-// Right
-Car.accelerate()
+class Main {
+    static int main() {
+        // Wrong
+        Car.setSpeed(30);
+        
+        // Right
+        Car.accelerate();
+    }
+}
 ```
 - Polymorfisme en delegatie worden gebruikt (POLYMORFISME)
 
