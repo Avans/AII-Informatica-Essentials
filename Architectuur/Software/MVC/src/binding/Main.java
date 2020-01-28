@@ -17,7 +17,7 @@ public class Main extends Application {
 		View view = new View(controller);
 		
 		Scene scene = new Scene(new Group(view));
-        stage.setTitle("Welcome to binding!"); 
+        stage.setTitle("Welcome to passthrough!");
         stage.setScene(scene); 
         stage.sizeToScene(); 
         stage.show(); 
