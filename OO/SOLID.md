@@ -22,7 +22,7 @@
 [Bron](http://www.blackwasp.co.uk/OCP.aspx)
 
 [Voorbeeld Java](https://github.com/Avans/PROG-SYNC/tree/master/OO/src/OpenClosed)
- 
+ 
 #### Liskov substitution
 
 > "Subtypes must be behaviourally substitutable for the base types" - Barbara Liskov, 1988
