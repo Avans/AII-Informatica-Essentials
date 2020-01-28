@@ -49,7 +49,6 @@ class Main {
 
 [Detailuitleg SOLID](OO/SOLID.md)
 
-
 ### De vier concepten van OO als theoretische basis
 http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
 
@@ -81,6 +80,13 @@ Eigenlijk raakt dit punt alle SOLID-principes:
 
 #### Polymorfisme
 TODO
+
+### Regels
+- geen instance variabelen public maken
+- geen getters gebruiken om variabelen naar hoger level te halen (ingewanden opvragen)
+    - leidt tot nare A.get().get().get() constructies, die zijn niet helder
+- scheding van verantwoordelijkheden à kleine klassen
+- gebruik polymorfisme waar mogelijk
 
 ---
 
