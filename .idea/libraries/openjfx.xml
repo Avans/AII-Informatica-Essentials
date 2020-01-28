@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="openjfx">
+    <CLASSES>
+      <root url="file:///usr/share/openjfx/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <LIBRARY_FILE />
+    <SOURCES>
+      <root url="file:///usr/share/openjfx/lib" />
+    </SOURCES>
+    <jarDirectory url="file:///usr/share/openjfx/lib" recursive="false" />
+    <jarDirectory url="file:///usr/share/openjfx/lib" recursive="false" type="SOURCES" />
+  </library>
+</component>
