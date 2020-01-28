@@ -85,9 +85,13 @@ TODO
 ---
 
 ## Architectuur
+Een goede architectuur bereikt dat overleg met stakeholders eenvoudiger wordt en fundamentele ontwerpbeslissingen inzichtelijk worden. Daarnaast kunnen elementen uit die architectuur eenvoudig gebruikt worden in andere projecten. [Bron](https://nl.wikipedia.org/wiki/Software-architectuur)
 
-### Model-View-Controller
-TODO
+Op verschillende vlakken kun je een architectuur opstellen: software, applicatie, systeem, data enzovoort.
 
-### Hexagonal Architecture | Onion Architecture | DDD etc.
-TODO
+### Software architectuur
+Bij onze opleiding leggen wij de nadruk op de volgende architecturen:
+
+- [MVC](Architectuur/Software/MVC)
+- MVVM
+- TODO...
