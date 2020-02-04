@@ -26,7 +26,7 @@ destination: ./docs
 
 # Build settings
 markdown: kramdown
-theme: jekyll-theme-time-machine
+theme: jekyll-theme-hacker
 plugins:
   - jekyll-feed
 
