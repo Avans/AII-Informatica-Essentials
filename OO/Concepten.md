@@ -1,3 +1,6 @@
+---
+layout: default
+---
 #### Encapsulatie
 > verschillende type objecten mogen niet direct aan de componenten of data van elkaar komen. Hiervoor zijn de methodes van een object.
 > A) A language mechanism for restricting direct access to some of the object's components.[Bron](https://en.wikipedia.org/wiki/Encapsulation_(computer_programming))

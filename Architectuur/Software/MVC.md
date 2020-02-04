@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # MVC
 De Model-View-Controller archituur wordt gebruikt om de GUI, logica en model van elkaar te scheiden.
 
