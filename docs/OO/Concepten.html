@@ -9,11 +9,11 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
 <meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<link rel="canonical" href="/Architectuur/Software/MVC.html" />
-<meta property="og:url" content="/Architectuur/Software/MVC.html" />
+<link rel="canonical" href="/OO/Concepten.html" />
+<meta property="og:url" content="/OO/Concepten.html" />
 <meta property="og:site_name" content="AII Informatica Essentials" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"/Architectuur/Software/MVC.html","headline":"AII Informatica Essentials","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
+{"@type":"WebPage","url":"/OO/Concepten.html","headline":"AII Informatica Essentials","description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="/feed.xml" title="AII Informatica Essentials" /></head>
 <body><header class="site-header" role="banner">
@@ -33,58 +33,38 @@
 </header>
 <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        <h1 id="mvc">MVC</h1>
-<p>De Model-View-Controller archituur wordt gebruikt om de GUI, logica en model van elkaar te scheiden.</p>
+        <h4 id="encapsulatie">Encapsulatie</h4>
+<blockquote>
+  <p>verschillende type objecten mogen niet direct aan de componenten of data van elkaar komen. Hiervoor zijn de methodes van een object.
+A) A language mechanism for restricting direct access to some of the object’s components.<a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">Bron</a>
+B) A language construct that facilitates the bundling of data with the methods (or other functions) operating on that data.<a href="https://en.wikipedia.org/wiki/Encapsulation_(computer_programming)">Bron</a></p>
+</blockquote>
 
-<p><a href="https://github.com/Avans/AII-Informatica-Essentials/tree/master/Architectuur/Software/MVC/src">Voorbeelden</a></p>
+<p>Vooral bij Dependency Inversion speelt encapsulatie een rol. Het idee van DI is dat implementaties niet ‘uitlekken’ naar client-objecten. Bijvoorbeeld een client-object van een e-mail logger wil alleen een write() method en geen setReceiver(), setSubject() (of vergelijkbare properties) etc. Dit komt ook overeen met deel A van encapsulatie
+Zoals hierboven (B) geschetst is het bundelen van data met gerelateerde methods het andere deel van encapsulatie. Dit hangt samen met Single Responsibility. Wanneer in een object data is opgeslagen die maar in een deel van de methods gebruikt wordt, kan sprake zijn van meerdere verantwoordelijkheden binnen één object.
+Het raakvlak met LS gaat om dat object heer en meester zijn over hun data, maar dat subtypes dit wel consistent met hun superclass moeten doen.</p>
 
-<h2 id="view-de-user-interface">V(iew): de user interface</h2>
+<h4 id="abstractie">Abstractie</h4>
+<blockquote>
+  <p>Objects in an OOP language provide an abstraction that hides the internal implementation details. <a href="https://stackify.com/oop-concept-abstraction/">Stackify.com</a></p>
+</blockquote>
+
+<p>Ook hier is de overlap met DI duidelijk. DI is bedoeld om implementatie af te schermen en afhankelijk te zijn van de abstractie.</p>
+
+<p>Abstractie heeft daarnaast ook raakvlakken met IS: bij Interface Segregation gaat het om het kiezen van de juiste abstractie die niets meer of minder bevat dan de client-objecten verwachten of nodig hebben.</p>
+
+<h4 id="overerving-via-super-class-of-interface">Overerving (via super-class of interface)</h4>
+<p>Eigenlijk raakt dit punt alle SOLID-principes:</p>
 <ul>
-  <li>toont models aan de actor</li>
-  <li>ontvangt input (keyboard, mouse, touch) van actor</li>
+  <li>SR: aangezien objecten één verantwoordelijk mogen hebben, moeten andere verantwoordelijkheden bijvoorbeeld middels overerving worden verplaatst.</li>
+  <li>OC: subclasses zijn een manier om snel functionaliteit toe te voegen, zonder de andere classes aan te moeten passen</li>
+  <li>LS: subtypes moeten te vervangen zijn met hun supertype zonder dat de werking wijzigt.</li>
+  <li>IS: interfaces zo strak mogelijk gedefinieerd moeten worden</li>
+  <li>DI: supertypes/interfaces bevatten abstracties van hun subtypes. Client-objecten zouden van die abstracties afhankelijk moeten zijn ipv de subtypes</li>
 </ul>
 
-<h2 id="controller-regelt-het-verloop-van-de-app">C(ontroller): regelt het verloop van de app</h2>
-<ul>
-  <li>opstarten en afsluiten</li>
-  <li>creërt Views en Models</li>
-  <li>toont Views op juiste gewenste moment aan actor</li>
-  <li>handelt de ontvangen input uit View af en vertaalt deze eventueel naar een actie in het model</li>
-  <li>bevat threads</li>
-  <li>regelt ondersteunende diensten zoals
-    <ul>
-      <li>soundplayer</li>
-      <li>file I/O</li>
-      <li>database acces (not the queries, just the access)</li>
-      <li>conversies (bv van relatieve naar absolute coordinaten)</li>
-      <li>exception handling</li>
-      <li>logging</li>
-    </ul>
-  </li>
-</ul>
-
-<h2 id="model-bevat-het-domein-model">M(odel): bevat het domein-model</h2>
-<ul>
-  <li>data + business logica</li>
-  <li>domein specifieke enums</li>
-</ul>
-
-<h2 id="regels">REGELS</h2>
-<ul>
-  <li>een View weet niets van een model
-    <ul>
-      <li>NB: in jaar 1 wordt lezen uit een Model nog toegestaan</li>
-    </ul>
-  </li>
-  <li>een View mag NIET schrijven in een Model</li>
-  <li>een Model bevat GEEN view-informatie zoals
-    <ul>
-      <li>schermcoördinaten / -afmetingen</li>
-      <li>plaatjes (png / gif) en sounds</li>
-      <li>imports van JavaFX libraries</li>
-    </ul>
-  </li>
-</ul>
+<h4 id="polymorfisme">Polymorfisme</h4>
+<p>TODO</p>
 
       </div>
     </main><footer class="site-footer h-card">
@@ -97,7 +77,7 @@
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li class="p-name">AII Informatica Essentials</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
+          <li class="p-name">AII Informatica Essentials</li><li><a class="u-email" href="mailto:ha.meijer@avans.nl">ha.meijer@avans.nl</a></li></ul>
       </div>
 
       <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>

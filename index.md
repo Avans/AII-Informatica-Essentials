@@ -1,5 +1,6 @@
-# Introductie
-
+---
+layout: default
+---
 Regelmatig is er discussie over de manier waarop concepten, theorieën of paradigma's aan studenten uitgelegd moeten worden. Het doel van deze repository is om overeenstemming te krijgen tussen docenten over de definitie die wij onze studenten willen aanleren. Het resultaat zou moeten zijn dat verschillende docenten in hun theorie, tijdens de lessen en beoordelingen consistenter zijn. 
 
 !! Uiteindelijk wordt deze repository óók aan studenten beschikbaar gesteld.
@@ -47,12 +48,12 @@ class Main {
 | I | Interface segregation (IS)<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
 | D | Dependency Inversion (DI)<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
 
-[Detailuitleg SOLID](OO/SOLID.md)
+[Detailuitleg SOLID](OO/SOLID.html)
 
 ### De vier concepten van OO als theoretische basis
 http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
 
-Naast SOLID worden [vier concepten](OO/Concepten.md) van OO uitgelegd. Deze worden hieronder gekoppeld aan de SOLID-principces.
+Naast SOLID worden [vier concepten](OO/Concepten.html) van OO uitgelegd. Deze worden hieronder gekoppeld aan de SOLID-principces.
 
 ### Regels
 - geen instance variabelen public maken
