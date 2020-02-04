@@ -18,8 +18,6 @@ email: ha.meijer@avans.nl
 description: >- # this means to ignore newlines until "baseurl:"
   Regelmatig is er discussie over de manier waarop concepten, theorieën of paradigma's aan studenten uitgelegd moeten worden.
   Het doel van deze repository is om overeenstemming te krijgen tussen docenten over de definitie die wij onze studenten willen aanleren. Het resultaat zou moeten zijn dat verschillende docenten in hun theorie, tijdens de lessen en beoordelingen consistenter zijn.
-
-  !! Uiteindelijk wordt deze repository óók aan studenten beschikbaar gesteld.
 baseurl: "/AII-Informatica-Essentials" # the subpath of your site, e.g. /blog
 url: "https://avans.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  rikmeijer

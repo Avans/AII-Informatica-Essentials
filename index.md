@@ -2,6 +2,8 @@
 layout: default
 ---
 
+  !! Uiteindelijk wordt deze repository óók aan studenten beschikbaar gesteld.
+
 ## Concrete handvatten voor docenten (TL;DR)
 
 Suggesties zijn welkom! Het idee is om hier de concrete handvatten op te sommen als conclusie op basis van volgende hoofdstukken.
