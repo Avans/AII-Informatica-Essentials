@@ -8,7 +8,7 @@ layout: default
 | S | Single responsibility<br>een klasse zou maar één reden mogen hebben om te veranderen.<br>![alt text](https://www.christinecarter.com/wp-content/uploads/sites/6/2018/05/unitask_CMYK.jpeg "single task")
 | O | Open for extension, closed for modification (Open/closed)<br>_“software-entiteiten … moeten open zijn voor uitbreiding, maar gesloten voor wijziging.”_
 | L | Liskov substitution<br>_“objecten in een programma zouden vervangbaar moeten zijn door instanties van hun subtypes zonder dat de juiste werking van het programma beïnvloed wordt.”_
-| I | Interface segregation<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
+| I | Interface segregation<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”<br>![](https://image.jimcdn.com/app/cms/image/transf/none/path/sfadd78e095e3d3be/image/ieac0e08c17242383/version/1495910755/image.png "more is less")
 | D | Dependency Inversion<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
 
 #### Single responsibility
