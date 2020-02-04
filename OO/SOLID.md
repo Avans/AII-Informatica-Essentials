@@ -5,8 +5,7 @@ layout: default
 
 |   | Toelichting
 |---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| S | Single responsibility<br>_een klasse zou maar één reden mogen hebben om te veranderen._
-![alt text](https://www.christinecarter.com/wp-content/uploads/sites/6/2018/05/unitask_CMYK.jpeg "single task")
+| S | Single responsibility<br>_een klasse zou maar één reden mogen hebben om te veranderen. ![alt text](https://www.christinecarter.com/wp-content/uploads/sites/6/2018/05/unitask_CMYK.jpeg "single task")
 | O | Open for extension, closed for modification (Open/closed)<br>_“software-entiteiten … moeten open zijn voor uitbreiding, maar gesloten voor wijziging.”_
 | L | Liskov substitution<br>_“objecten in een programma zouden vervangbaar moeten zijn door instanties van hun subtypes zonder dat de juiste werking van het programma beïnvloed wordt.”_
 | I | Interface segregation<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
