@@ -23,7 +23,7 @@ github_username:  rikmeijer
 destination: ./docs
 
 # Build settings
-markdown: kramdown
+markdown: GFM
 theme: jekyll-theme-architect
 plugins:
   - jekyll-feed
