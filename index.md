@@ -1,5 +1,6 @@
 ---
 layout: home
+page.title: Home
 ---
 
   !! Uiteindelijk wordt deze repository óók aan studenten beschikbaar gesteld.
