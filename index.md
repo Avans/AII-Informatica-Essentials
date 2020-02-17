@@ -13,8 +13,8 @@ Suggesties zijn welkom! Het idee is om hier de concrete handvatten op te sommen 
 # Paradigma's
 https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/
 
-- [Object Georienteerd Programmeren](Paradigmas/OO.html)
-- [Functioneel programmeren](Paradigmas/F.html)
+- [Object Georienteerd Programmeren](paradigmas/oo)
+- [Functioneel programmeren](paradigmas/f)
 
 ---
 
