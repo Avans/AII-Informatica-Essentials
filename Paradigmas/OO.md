@@ -10,11 +10,11 @@ permalink: /paradigmas/oo
 
 |   | Toelichting
 |---|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| S | Single responsibility (SR)<br>_een klasse zou maar één reden mogen hebben om te veranderen._
-| O | Open for extension, closed for modification (OC)<br>_“software-entiteiten … moeten open zijn voor uitbreiding, maar gesloten voor wijziging.”_
-| L | Liskov substitution (LS)<br>_“objecten in een programma zouden vervangbaar moeten zijn door instanties van hun subtypes zonder dat de juiste werking van het programma beïnvloed wordt.”_
-| I | Interface segregation (IS)<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
-| D | Dependency Inversion (DI)<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
+| S | **Single responsibility** (SR)<br>_een klasse zou maar één reden mogen hebben om te veranderen._
+| O | **Open for extension**, closed for modification (OC)<br>_“software-entiteiten … moeten open zijn voor uitbreiding, maar gesloten voor wijziging.”_
+| L | **Liskov substitution** (LS)<br>_“objecten in een programma zouden vervangbaar moeten zijn door instanties van hun subtypes zonder dat de juiste werking van het programma beïnvloed wordt.”_
+| I | **Interface segregation** (IS)<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
+| D | **Dependency Inversion** (DI)<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
 
 [Detailuitleg SOLID](OO/SOLID.html)
 
