@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
   !! Uiteindelijk wordt deze repository óók aan studenten beschikbaar gesteld.
