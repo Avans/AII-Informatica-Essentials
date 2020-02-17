@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: "Concepten"
+permalink: /paradigmas/oo/concepten
 ---
 #### Encapsulatie
 > verschillende type objecten mogen niet direct aan de componenten of data van elkaar komen. Hiervoor zijn de methodes van een object.

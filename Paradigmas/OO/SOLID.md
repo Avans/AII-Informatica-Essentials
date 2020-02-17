@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: "S.O.L.I.D."
+permalink: /paradigmas/oo/solid
 ---
 [SOLID](https://nl.wikipedia.org/wiki/SOLID) als practisch uitgangspunt voor het schrijven van OO. Dit zijn de vijf belangrijkste OO-principes (bedacht door Robert C. Martin).
 
