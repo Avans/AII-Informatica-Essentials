@@ -1,5 +1,7 @@
 ---
-layout: default
+layout: page
+title: "Object georienteerd programmeren"
+permalink: /paradigmas/oo
 ---
 {:toc}
 
