@@ -24,18 +24,7 @@ In softwareontwikkeling kom je dagelijks verschillende [principes](principes) te
 ---
 
 ## Architectuur
-Een goede architectuur bereikt dat overleg met stakeholders eenvoudiger wordt en fundamentele ontwerpbeslissingen inzichtelijk worden. Daarnaast kunnen elementen uit die architectuur eenvoudig gebruikt worden in andere projecten. [Bron](https://nl.wikipedia.org/wiki/Software-architectuur)
-
-Op verschillende vlakken kun je een architectuur opstellen: software, applicatie, systeem, data enzovoort.
-
-### Software
-Bij onze opleiding leggen wij de nadruk op de volgende architecturen:
-
-- [MVC](Architectuur/Software/MVC)
-- MVVM
-
-### Systeem
-- Microservices
+Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenvoudiger wordt en fundamentele ontwerpbeslissingen inzichtelijk worden. Daarnaast kunnen elementen uit die architectuur eenvoudig gebruikt worden in andere projecten. [Bron](https://nl.wikipedia.org/wiki/Software-architectuur)
 
 ---
 
