@@ -23,26 +23,26 @@ In softwareontwikkeling kom je dagelijks verschillende [principes](principes) te
 
 ---
 
-## Architectuur
+# Architectuur
 Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenvoudiger wordt en fundamentele ontwerpbeslissingen inzichtelijk worden. Daarnaast kunnen elementen uit die architectuur eenvoudig gebruikt worden in andere projecten. [Bron](https://nl.wikipedia.org/wiki/Software-architectuur)
 
 ---
 
-## Security
+# Security
 
 - [Bedreigingen](https://en.wikipedia.org/wiki/Information_security)
 - Hashing/encryption
 
 ---
 
-## Werkwijzes
+# Werkwijzes
 
 - TDD/BDD
 - DDD
 - PP
 - SBE
 
-## Quality Assurance
+# Quality Assurance
 
 - Unit tests
 - Functional, regression, integration, acceptance testing
@@ -51,7 +51,7 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 - Continueous Delivery
 - DevOps
 
-## Projectmanagement
+# Projectmanagement
 
 - [Agile](https://agilemanifesto.org/)
     - Scrum
