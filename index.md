@@ -35,9 +35,15 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 
 ---
 
-## Quality Assurance
+## Werkwijzes
 
 - TDD/BDD
+- DDD
+- PP
+- SBE
+
+## Quality Assurance
+
 - Unit tests
 - Functional, regression, integration, acceptance testing
 - (O|D)TAP
@@ -50,6 +56,9 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 - [Agile](https://agilemanifesto.org/)
     - Scrum
     - Kanban
-- Waterval
+    - LeSS
+    - SAFe
+    - XP
+- Waterfall
 - ITIL
-- Lean
+- Lean SD
