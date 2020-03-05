@@ -10,7 +10,7 @@ Suggesties zijn welkom! Het idee is om hier de concrete handvatten op te sommen 
 ---
 
 # Paradigma's
-https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/
+[Wat is een paradigma?](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)
 
 - [Procedureel](https://en.wikipedia.org/wiki/Procedural_programming)
 - [Object Georienteerd Programmeren](paradigmas/oo)
@@ -19,11 +19,7 @@ https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/
 ---
 
 # Principes
-- DRY
-- [SOLID](paradigmas/oo/solid)
-- KISS
-- YAGNI
-- DDD
+In softwareontwikkeling kom je dagelijks verschillende [principes](principes) tegen. Dit zijn de 'boerenwijsheden' uit informatica die je helpen om betere software te schrijven.
 
 ---
 
