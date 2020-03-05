@@ -5,7 +5,7 @@ page.title: Home
 
 ## Concrete handvatten voor docenten (TL;DR)
 
-Deze site bevat een verzameling essentieële kennis op het gebied van softwareontwikkeling die je gebruikt tijdens je opleiding. We proberen hier vooral op conceptueel niveau te blijven, omdat daar de minste veranderingen plaatsvinden. Je bent van harte uitgenodigd om via de [GitHub-repository]({{ site.github.tar_url }}) een bijdrage te doen.
+Deze site bevat een verzameling essentieële kennis op het gebied van softwareontwikkeling die je gebruikt tijdens je opleiding. We proberen hier vooral op conceptueel niveau te blijven, omdat daar de minste veranderingen plaatsvinden. Je bent van harte uitgenodigd om via de [GitHub-repository]({{ site.github.repository_url }}) een bijdrage te doen.
 
 ---
 
