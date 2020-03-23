@@ -30,33 +30,42 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 
 - [Bedreigingen](https://en.wikipedia.org/wiki/Information_security)
 - Hashing/encryption
+- SSL
+- Authentication/Autorization
 
 ---
 
 # Werkwijzes
 
-- TDD/BDD
-- DDD
-- PP
-- SBE
+- [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)/[Behavior Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development)
+- [Domain Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design)
+- [Pair Programming (PP)](https://en.wikipedia.org/wiki/Pair_programming)
+- [Specification By Example (SBE)](https://en.wikipedia.org/wiki/Specification_by_example)
 
 # Quality Assurance
 
-- Unit tests
-- Functional, regression, integration, acceptance testing
-- (O|D)TAP
-- Continueous Integration
-- Continueous Delivery
-- DevOps
+- [Testing](https://en.wikipedia.org/wiki/Software_testing)
+  1. [Unit tests](https://en.wikipedia.org/wiki/Unit_testing): works?
+  2. [Integration testing](https://en.wikipedia.org/wiki/Integration_testing): works together?
+     - [Functional](https://en.wikipedia.org/wiki/Functional_testing), 
+     - [Regression](https://en.wikipedia.org/wiki/Regression_testing)
+  3. [System Testing](https://en.wikipedia.org/wiki/System_testing): works as specified?
+  4. [Acceptance testing](https://en.wikipedia.org/wiki/Software_testing#Acceptance_testing): ready for production?
+- [(O|D)TAP: Development, Testing, Acceptance, Production](https://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production)
+- [Continueous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
+- [Continueous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
 
-# Projectmanagement
 
+# Paradigma's / Softwareontwikkelmethodes
 - [Agile](https://agilemanifesto.org/)
-    - Scrum
-    - Kanban
-    - LeSS
-    - SAFe
-    - XP
-- Waterfall
-- ITIL
-- Lean SD
+    - [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
+    - [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
+    - [eXtreme Programming (XP)](https://en.wikipedia.org/wiki/Extreme_programming)
+    - [Large Scale Scrum (LeSS)](https://en.wikipedia.org/wiki/Scrum_(software_development)#Large-scale_Scrum)
+    - [Scaled Agile Framework (SAFe)](https://en.wikipedia.org/wiki/Scaled_agile_framework)
+- [DevOps](https://en.wikipedia.org/wiki/DevOps)
+- [Lean SD](https://en.wikipedia.org/wiki/Lean_software_development)
+- [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model)
+
+# Service management
+- [ITIL](https://en.wikipedia.org/wiki/ITIL)
