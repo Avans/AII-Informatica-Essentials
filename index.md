@@ -29,9 +29,10 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 # Security
 
 - [Bedreigingen](https://en.wikipedia.org/wiki/Information_security)
-- Hashing/encryption
-- SSL
-- Authentication/Autorization
+- [Hashing](https://en.wikipedia.org/wiki/Hash_function)/[encryption](https://en.wikipedia.org/wiki/Encryption)
+- [TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
+- [Authentication/Autorization](https://en.wikipedia.org/wiki/Authentication)
+  - [Multi-factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
 
 ---
 
