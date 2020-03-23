@@ -7,7 +7,7 @@ Deze site bevat een verzameling essentiële kennis op het gebied van softwareont
 
 ---
 
-# Paradigma's
+# Programmeerstijlen
 [Wat is een paradigma?](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)
 
 - [Procedureel](https://en.wikipedia.org/wiki/Procedural_programming)
@@ -29,29 +29,22 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 # Security
 
 - [Bedreigingen](https://en.wikipedia.org/wiki/Information_security)
-- [Hashing](https://en.wikipedia.org/wiki/Hash_function)/[encryption](https://en.wikipedia.org/wiki/Encryption)
+- [Hashing](https://en.wikipedia.org/wiki/Hash_function) / [encryption](https://en.wikipedia.org/wiki/Encryption)
 - [TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
 - [Authentication/Autorization](https://en.wikipedia.org/wiki/Authentication)
   - [Multi-factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
 
----
-
-# Werkwijzes
-
-- [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development)/[Behavior Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development)
-- [Domain Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design)
-- [Pair Programming (PP)](https://en.wikipedia.org/wiki/Pair_programming)
-- [Specification By Example (SBE)](https://en.wikipedia.org/wiki/Specification_by_example)
 
 # Quality Assurance
 
-- [Testing](https://en.wikipedia.org/wiki/Software_testing)
+[Test](https://en.wikipedia.org/wiki/Software_testing) niveaus:
   1. [Unit tests](https://en.wikipedia.org/wiki/Unit_testing): works?
   2. [Integration testing](https://en.wikipedia.org/wiki/Integration_testing): works together?
      - [Functional](https://en.wikipedia.org/wiki/Functional_testing), 
      - [Regression](https://en.wikipedia.org/wiki/Regression_testing)
   3. [System Testing](https://en.wikipedia.org/wiki/System_testing): works as specified?
   4. [Acceptance testing](https://en.wikipedia.org/wiki/Software_testing#Acceptance_testing): ready for production?
+
 - [(O|D)TAP: Development, Testing, Acceptance, Production](https://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production)
 - [Continueous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
 - [Continueous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
@@ -67,6 +60,15 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 - [DevOps](https://en.wikipedia.org/wiki/DevOps)
 - [Lean SD](https://en.wikipedia.org/wiki/Lean_software_development)
 - [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model)
+
+# Werkwijzes
+
+- [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) / [Behavior Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development)
+- [Domain Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design)
+- [Pair Programming (PP)](https://en.wikipedia.org/wiki/Pair_programming)
+- [Specification By Example (SBE)](https://en.wikipedia.org/wiki/Specification_by_example)
+
+---
 
 # Service management
 - [ITIL](https://en.wikipedia.org/wiki/ITIL)
