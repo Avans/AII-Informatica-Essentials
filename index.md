@@ -50,7 +50,7 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 - [Continueous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
 
 
-# Paradigma's / Softwareontwikkelmethodes
+# Softwareontwikkelmethodes
 - [Agile](https://agilemanifesto.org/)
     - [Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development))
     - [Kanban](https://en.wikipedia.org/wiki/Kanban_(development))
