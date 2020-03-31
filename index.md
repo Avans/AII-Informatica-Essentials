@@ -28,20 +28,14 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 # Security
 Beveiliging is een belangrijk, en complex, aspect van software ontwikkeling. Er zijn talloze [bedreigingen](https://en.wikipedia.org/wiki/Information_security), die je op [diverse wijzen](/security) kunt mitigeren.
 
+---
+
 # Quality Assurance
+Veel dicussies binnen ontwikkelteams gaan over het schrijven van ['goede of schone' code](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882). Helaas is er geen objectieve maatstaf, maar zijn er wel verschillende ['best practices'](https://github.com/luiseduardo1/Clean-code-best-practices) die jezelf kunt toepassen.
+De kwaliteit van je software wil je daarnaast kunnen garanderen aan je klant of opdrachtgever. Naast diverse [werkwijzes](/practices) als TDD, DDD en PP, is het essentieel dat je je software [test](/testing).
+Door tests te programmeren, kan testwerk worden geautomatiseerd. Hierdoor komen ook verschillende [uitrolstrategieën](/deployment) binnen handbereik.
 
-[Test](https://en.wikipedia.org/wiki/Software_testing) niveaus:
-  1. [Unit tests](https://en.wikipedia.org/wiki/Unit_testing): works?
-  2. [Integration testing](https://en.wikipedia.org/wiki/Integration_testing): works together?
-     - [Functional](https://en.wikipedia.org/wiki/Functional_testing), 
-     - [Regression](https://en.wikipedia.org/wiki/Regression_testing)
-  3. [System Testing](https://en.wikipedia.org/wiki/System_testing): works as specified?
-  4. [Acceptance testing](https://en.wikipedia.org/wiki/Software_testing#Acceptance_testing): ready for production?
-
-- [(O|D)TAP: Development, Testing, Acceptance, Production](https://en.wikipedia.org/wiki/Development,_testing,_acceptance_and_production)
-- [Continueous Integration](https://en.wikipedia.org/wiki/Continuous_integration)
-- [Continueous Delivery](https://en.wikipedia.org/wiki/Continuous_delivery)
-
+---
 
 # Softwareontwikkelmethodes
 - [Agile](https://agilemanifesto.org/)
@@ -55,11 +49,6 @@ Beveiliging is een belangrijk, en complex, aspect van software ontwikkeling. Er 
 - [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model)
 
 # Werkwijzes
-
-- [Test Driven Development (TDD)](https://en.wikipedia.org/wiki/Test-driven_development) / [Behavior Driven Development (BDD)](https://en.wikipedia.org/wiki/Behavior-driven_development)
-- [Domain Driven Design (DDD)](https://en.wikipedia.org/wiki/Domain-driven_design)
-- [Pair Programming (PP)](https://en.wikipedia.org/wiki/Pair_programming)
-- [Specification By Example (SBE)](https://en.wikipedia.org/wiki/Specification_by_example)
 
 ---
 
