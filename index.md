@@ -48,8 +48,6 @@ Door tests te programmeren, kan testwerk worden geautomatiseerd. Hierdoor komen 
 - [Lean SD](https://en.wikipedia.org/wiki/Lean_software_development)
 - [Waterfall](https://en.wikipedia.org/wiki/Waterfall_model)
 
-# Werkwijzes
-
 ---
 
 # Service management
