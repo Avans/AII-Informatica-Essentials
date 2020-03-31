@@ -9,7 +9,6 @@ Deze site bevat een verzameling essentiële kennis op het gebied van softwareont
 
 # Programmeerstijlen
 [Wat is een paradigma?](https://www.freecodecamp.org/news/what-exactly-is-a-programming-paradigm/)
-
 - [Procedureel](https://en.wikipedia.org/wiki/Procedural_programming)
 - [Object Georienteerd Programmeren](paradigmas/oo)
 - [Functioneel programmeren](paradigmas/f)
@@ -27,13 +26,7 @@ Een [goede architectuur](architectuur) bereikt dat overleg met stakeholders eenv
 ---
 
 # Security
-
-- [Bedreigingen](https://en.wikipedia.org/wiki/Information_security)
-- [Hashing](https://en.wikipedia.org/wiki/Hash_function) / [encryption](https://en.wikipedia.org/wiki/Encryption)
-- [TLS/SSL](https://en.wikipedia.org/wiki/Transport_Layer_Security)
-- [Authentication/Autorization](https://en.wikipedia.org/wiki/Authentication)
-  - [Multi-factor Authentication](https://en.wikipedia.org/wiki/Multi-factor_authentication)
-
+Beveiliging is een belangrijk, en complex, aspect van software ontwikkeling. Er zijn talloze [bedreigingen](https://en.wikipedia.org/wiki/Information_security), die je op [diverse wijzen](/security) kunt mitigeren.
 
 # Quality Assurance
 
