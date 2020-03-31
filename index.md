@@ -52,3 +52,8 @@ Door tests te programmeren, kan testwerk worden geautomatiseerd. Hierdoor komen 
 
 # Service management
 - [ITIL](https://en.wikipedia.org/wiki/ITIL)
+
+--- 
+
+# Bladwijzers
+- [Rik Meijer](/bookmarks/rik.html)
