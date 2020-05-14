@@ -3,7 +3,11 @@ layout: home
 page.title: Home
 ---
 
-Deze site bevat een verzameling essentiële kennis op het gebied van softwareontwikkeling die je gebruikt tijdens je opleiding. We proberen hier vooral op conceptueel niveau te blijven, omdat daar de minste veranderingen plaatsvinden. Je bent van harte uitgenodigd om via de [GitHub-repository]({{ site.github.repository_url }}) een bijdrage te doen.
+Deze site bevat een verzameling essentiële kennis op het gebied van softwareontwikkeling. We proberen hier vooral op conceptueel niveau te blijven, omdat daar de minste veranderingen plaatsvinden. Het idee is dat allerlei concepten worden uitgelegd die je gedurende onze opleiding (of juist niet) kunt tegenkomen. Op deze manier hopen wij het voor jullie makkelijker te maken om deze informatie terug te vinden en anderzijds zodat wij één lijn kunnen trekken hoe bepaalde concepten binnen onze opleiding worden uitgelegd/aangeboden. 
+
+!!! Deze is nog alpha en absoluut nog **niet** iets waaraan je rechten kunt ontlenen, maar ik zou graag horen (via GitHub issues) wat jullie ervan vinden.
+
+Je bent van harte uitgenodigd om via de [GitHub-repository]({{ site.github.repository_url }}) een bijdrage te doen.
 
 ---
 
