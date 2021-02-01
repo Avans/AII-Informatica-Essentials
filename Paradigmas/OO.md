@@ -41,6 +41,8 @@ class Main {
 }
 ```
 - Polymorfisme en delegatie worden gebruikt (POLYMORFISME)
+- Constructors zijn _alleen_ om objecten klaar te zetten.
+    - Instance variabelen _alleen_ in de constructor instantieren
 - geen getters gebruiken om variabelen naar hoger level te halen (ingewanden opvragen)
     - leidt tot nare A.get().get().get() constructies, die zijn niet helder
 
