@@ -9,7 +9,7 @@ Op verschillende vlakken kun je een architectuur opstellen: software, applicatie
 ### Software
 Bij onze opleiding leggen wij de nadruk op de volgende architecturen:
 
-- [MVC](software/mvc)
+- [MVC](architectuur/software/mvc)
 - MVVM
 
 ### Systeem
