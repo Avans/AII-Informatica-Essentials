@@ -16,7 +16,7 @@ permalink: /paradigmas/oo
 | I | **Interface segregation** (IS)<br>_“veel client-specifieke interfaces zijn beter dan één algemene interface.”_
 | D | **Dependency Inversion** (DI)<br>_"men zou afhankelijk moeten zijn van abstracties, niet van concrete implementaties"[[8]](https://nl.wikipedia.org/wiki/SOLID#cite_note-martin-design-principles-8)[Dependency injection](https://nl.wikipedia.org/wiki/Dependency_injection) is een manier om dit principe toe te passen._
 
-[Detailuitleg SOLID](OO/SOLID.html)
+[Detailuitleg SOLID](solid)
 
 ### De vier concepten van OO als theoretische basis
 http://codebetter.com/raymondlewallen/2005/07/19/4-major-principles-of-object-oriented-programming/
